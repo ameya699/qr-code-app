@@ -5,7 +5,9 @@
   background: #c5cb8b;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  column-count: 3;
+  row-gap: 0.8rem;
   flex-wrap: wrap;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
