@@ -28,12 +28,14 @@ const QrCode = () => {
           required
           placeholder="Enter url..."
           style={{
-            width: "480px",
+            width: "auto",
+            minWidth: "250px",
             height: "4vh ",
             borderRadius: "25px",
             background: "#FFF",
             paddingLeft: "1vh",
             paddingRight: "1vh",
+            fontSize: "17px",
           }}
           onChange={handlechange}
         />
@@ -53,16 +55,14 @@ const QrCode = () => {
       </div>
       {qrcode && (
         <div
-          style={{ display: "flex", flexDirection: "column", rowGap: "1rem" }}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            rowGap: "1rem",
+            alignItems: "center",
+          }}
         >
-          <img
-            style={{
-              width: "100%",
-              maxWidth: "120px",
-              margin: "2rem auto",
-            }}
-            src={qrcode}
-          />
+          <img src={qrcode} style={{ width: "30vh" }} />
           <a
             download="qr-code.png"
             href={qrcode}

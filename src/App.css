@@ -1,9 +1,18 @@
-.App {
+/* .App {
   box-sizing: border-box;
-  height: 100vh;
+  height: 100%;
+  margin-bottom: 0;
   background-color: antiquewhite;
-  width: 100%;
-  min-width: min-content;
-  margin: 0%;
-  padding: 0%;
+}
+  */
+
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #d7e5ca;
 }

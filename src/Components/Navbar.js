@@ -14,8 +14,15 @@ const Navbar = () => {
           flexWrap: "wrap",
         }}
       >
-        <a>About</a>
-        <a>Contact</a>
+        <a
+          href="https://ameya699.github.io/ameyaawatade.github.io/"
+          target="_blank"
+        >
+          About
+        </a>
+        <a href="https://www.linkedin.com/in/ameyaawatade/" target="_blank">
+          Contact
+        </a>
       </div>
     </div>
   );
