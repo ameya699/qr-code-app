@@ -1,0 +1,12 @@
+.navbar-container {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  background: #c5cb8b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}

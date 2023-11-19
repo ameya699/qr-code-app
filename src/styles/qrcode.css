@@ -1,0 +1,18 @@
+.qr-code-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  row-gap: 4rem;
+}
+
+.qr-input-container {
+  padding-top: 4vh;
+  display: flex;
+  justify-content: center;
+  column-gap: 1vh;
+  flex-wrap: wrap;
+  row-gap: 1vh;
+}
